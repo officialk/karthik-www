@@ -70,7 +70,7 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        a dedicated full stack developer with over six years of experience in creating robust and user-friendly
+        A dedicated full stack developer with over six years of experience in creating robust and user-friendly
         applications. Passionate about continuous learning, I am currently exploring AI technologies to integrate
         innovation and efficiency into my work. With a commitment to excellence, I strive to deliver impactful solutions
         in every project I undertake.

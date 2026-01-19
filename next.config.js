@@ -15,7 +15,7 @@ const nextConfig = {
 
     return config;
   },
-  output: 'standalone',
+  output: 'export',
   compress: true,
   generateEtags: true,
   pageExtensions: ['tsx', 'mdx', 'ts'],
@@ -25,6 +25,7 @@ const nextConfig = {
   swcMinify: true,
   trailingSlash: false,
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
